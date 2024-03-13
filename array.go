@@ -28,4 +28,10 @@ func main(){
 
 	fmt.Println(tes)
 	fmt.Println("Panjag array: ", len(tes)) // output panjang array
+
+	s:= make([]int, 0)
+	s = append(s, 1)
+	s = append(s, 2, 3, 4)
+	s = append(s, 5)
+	fmt.Println(s[1:3]) // Mengambil data dari array index ke-1 sampai batas 3 = 2,3
 }
